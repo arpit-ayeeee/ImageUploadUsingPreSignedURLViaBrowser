@@ -8,6 +8,7 @@ dotenv.config()
 
 const region = "ap-south-1"
 const bucketName = "fsptestingbucket"
+// Have added IAM Role, so creds not needed
 // const accessKeyId = process.env.AWS_ACCESS_KEY_ID
 // const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
 
